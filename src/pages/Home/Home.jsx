@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import "./Home.css"
-import { ReactComponent as SideBlob } from "../../assets/sideBlob.svg";
+import { ReactComponent as SideBlob } from "../../assets/blob.svg";
 
 const Home = () => {
 
@@ -68,19 +68,27 @@ const Home = () => {
     return(
         <div className='Home-container'>
 
+            <nav className='Home-nav'>
+                <ul className='Home-nav-options'>
+                    <li className='Home-nav-option'>Projects</li>
+                    <li className='Home-nav-option'>Blog</li>
+                    <li className='Home-nav-option'>Games</li>
+                </ul>
+            </nav>
+
             <div className='Home-text'>
                 <div className='Home-title-text'>
                     <span ref={title}>Hey</span>
                     <span ref={cursor}>_</span>
                 </div>
-                
+
                 <div className='Home-bottom-text'>
-                    <p>I'm Leo, a Full Stack developer & Cloud Architect</p>
+                    <p>I'm Leo, a Full Stack developer <br/> & Cloud Architect</p>
                     <p>I use this site to showcase my work</p>
                 </div>
             </div>
 
-            <SideBlob id='sideBlob' />
+            <SideBlob id='bottomBlob' />
 
         </div>
     );
