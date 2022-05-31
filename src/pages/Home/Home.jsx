@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import "./Home.css"
 import { ReactComponent as SideBlob } from "../../assets/blob.svg";
 
@@ -70,9 +71,9 @@ const Home = () => {
 
             <nav className='Home-nav'>
                 <ul className='Home-nav-options'>
-                    <li className='Home-nav-option'>Projects</li>
-                    <li className='Home-nav-option'>Blog</li>
-                    <li className='Home-nav-option'>Games</li>
+                    <li className='Home-nav-option'><Link className='Home-link' to="/projects">Projects</Link></li>
+                    <li className='Home-nav-option'><Link className='Home-link' to="/blog">Blog</Link></li>
+                    <li className='Home-nav-option'><Link className='Home-link' to="/games">Games</Link></li>
                 </ul>
             </nav>
 
