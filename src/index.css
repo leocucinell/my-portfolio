@@ -7,9 +7,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100%; 
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1F6BFF;
+  font-family: 'Montserrat', sans-serif;
 }

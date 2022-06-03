@@ -1,0 +1,26 @@
+.Contact-container{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+    font-size: 1.5rem;
+    z-index: 100;
+}
+
+.phone-container{
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.socials-container{
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}

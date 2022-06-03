@@ -67,13 +67,14 @@ const Home = () => {
     })
 
     return(
-        <div className='Home-container'>
+        <div className='Home-container main-container'>
 
             <nav className='Home-nav'>
                 <ul className='Home-nav-options'>
-                    <li className='Home-nav-option'><Link className='Home-link' to="/projects">Projects</Link></li>
+                    <li className='Home-nav-option'><Link className='Home-link' to="/experience">Experience</Link></li>
                     <li className='Home-nav-option'><Link className='Home-link' to="/blog">Blog</Link></li>
                     <li className='Home-nav-option'><Link className='Home-link' to="/games">Games</Link></li>
+                    <li className='Home-nav-option'><Link className='Home-link' to="/contact">Contact</Link></li>
                 </ul>
             </nav>
 

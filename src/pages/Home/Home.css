@@ -1,8 +1,5 @@
-.Home-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: #1F6BFF;
-    font-family: 'Montserrat', sans-serif;
+.Home-container{
+    overflow-x: hidden;
 }
 
 .Home-nav{
